@@ -1,0 +1,548 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  
+    <meta name="description" content="写博客其实没有原因，只是我想而已。但我希望文字能让我慢下来，看看生活的背面。">
+  
+  <meta name="author" content="Retr0">
+  <meta name="keywords" content="">
+  
+  <title>前言 - Blog of Retr0 Pan | 潘毅峰的博客</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"panyf98.github.io","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Blog of Retr0 Pan | 潘毅峰的博客" type="application/atom+xml">
+</head>
+
+
+<body>
+  <header style="height: 80vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Retr0 Pan</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/postpage.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="前言">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      Retr0
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-02-27 03:33" pubdate>
+        2021年2月27日 凌晨
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.8k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      6
+       分钟
+    </span>
+  
+
+  
+  
+    
+      <!-- 不蒜子统计文章PV -->
+      <span id="busuanzi_container_page_pv" style="display: none">
+        <i class="iconfont icon-eye" aria-hidden="true"></i>
+        <span id="busuanzi_value_page_pv"></span> 次
+      </span>
+    
+  
+</div>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">前言</h1>
+            
+              <p class="note note-info">
+                
+                  本文最后更新于：2021年4月22日 晚上
+                
+              </p>
+            
+            <div class="markdown-body">
+              <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>&emsp;&emsp;上个学期因为课程认识了一个新的朋友。虽说四年前就有耳闻，时不时也能见上一面，但我居然从没有与他有过任何交流。大概是去年的十二月份，我访问他的博客网站，发现了不少<strong>不着边际但很真挚</strong>的文字。借这个机会，我发现了他动人的另一面，也找回了曾经的 “古怪” 的自己。<br>&emsp;&emsp;我得先贴出他的网址：<a target="_blank" rel="noopener" href="https://madwayne.com/">https://madwayne.com</a> 。希望他不会介意我在这儿提到他。  </p>
+<h3 id="动人的他"><a href="#动人的他" class="headerlink" title="动人的他"></a>动人的他</h3><p>&emsp;&emsp;提到这位朋友，我首先想起他专业知识之高。他在斯坦福交流期间，修完一门博士课程《Molecular Dynamics》，上学期他作为我的老师，让 “物理学思想的洪流” 对我好一通洗刷。虽说他外貌不比潘安，但气质有独特之处，加之知识与思想的力量，要我说也是帅气不凡。  </p>
+<blockquote>
+<p>&emsp;想法的缘起在于最近一篇论文的写作。在查找各种资料的时候发现各个帖子有些内容的细节部分并不友好。<br>&emsp;由于某些特殊原因，我强迫症一般的喜欢验证书上的定理公式。<br>&emsp;我没事儿爱折腾，不敢自称极客，做出过能让盲人丢掉性命的电子导盲犬。  </p>
+</blockquote>
+<p>&emsp;&emsp;据我对他的了解，他绝对是个<strong>技术宅</strong>。他对公式有不同寻常的敏感，这是我难以企及的能力。他在博客中整理了MD（Molecular Dynamics）、ML（Machine Learning）的不少学习笔记，很像技术大佬的作风，不仅可以留以日后重温，也能给别人以借鉴帮助。  </p>
+<blockquote>
+<p>&emsp;以致后来我那由完美主义以及生命不息作死不止信念共同组成的破烂不堪的灵魂萌生了这一想法。<br>&emsp;也许是钢琴用它最后的光芒点亮了我干枯的心里唯一的一点古典基因，除了健身之外所有需要集中注意的工作都靠古典。初中阶段呆过管弦乐团管着次中音号部。喜欢大编制交响。<br>&emsp;野路子哲学，美学爱好者。  </p>
+</blockquote>
+<p>&emsp;&emsp;可贵的是，他<strong>不只是技术宅</strong>。他的文字中还透露出文艺青年特有的偏执与思考。我要如何的想象力才能预料到，如此膀大腰圆、雷厉风行的七尺男儿，也有沉溺在艺术和文学中的温柔一面？因为我曾学习古典吉他，对古典音乐有一种由衷的崇拜，所以我对他也由衷感到亲切起来。  </p>
+<h3 id="古怪的我"><a href="#古怪的我" class="headerlink" title="古怪的我"></a>古怪的我</h3><p>&emsp;&emsp;看完朋友写的博客，我突然想起高中时的前桌，他实在是一个 “古怪” 的人。他平日里沉默寡言，但打起球来生龙活虎。在球场，他曾因为逞能扣篮，意外一口咬在另一位同学的头顶，致使那位同学戴了一个月的头纱，自己也磕伤一颗牙齿。那时大家尤其喜欢互相恭维，他就被冠以 “<strong>扣篮王</strong>” 的称号。<br>&emsp;&emsp;扣篮王其实是一个深沉睿智的人，他像是高中幼稚生活的局外人，以旁观者清的视角观察着我们。他从不参与男生们吵闹的游戏，总是坐在座位上静静地思考。在我沉溺在青涩的爱情中郁郁寡欢的时候，他曾递给我开导的纸条。我始终很感谢他，即使我早已忘记纸上的内容。<br>&emsp;&emsp;我认为扣篮王有着哲学家的神秘气质，他出众的数学直觉又让我更加坚定这样的想法，但他在同龄人中无疑是一个古怪、离群的家伙。偏偏我对这样的家伙有着莫名的好感，大概是出于好奇，又或许是 “臭味相投”。<br>&emsp;&emsp;作为理科生，我却格外喜欢文学，常常为读了什么文章而出神，只可惜当时还没有生出坚持读书的决心。当然这和几位语文老师的深远影响脱不了干系。虽然我也有着中学生的天真和幼稚，也喜欢打闹，但在男生们为NBA欢呼的时候，不太感兴趣的我总会觉得格格不入。所幸我还能得到同桌的认同，如果没有她，很多时候我恐怕会觉得孤单吧。同桌、前桌，以及两个有趣而同样爱思考的朋友组成了我的小世界。高中生活是枯燥的，他们就是我的星星。<br>&emsp;&emsp;如果不是看到朋友的博客，我一定已经在忙碌的生活中<strong>丢失</strong>了曾经的我。  </p>
+<h2 id="动力"><a href="#动力" class="headerlink" title="动力"></a>动力</h2><p>&emsp;&emsp;促使我决心动手搭建自己的博客的，其实是另一件事。<br>&emsp;&emsp;长话短说，事情的结果是，我在为自己微不足道的成长沾沾自喜之后，终于又开始质疑自己，同时急切地想证明自己。这时，我在一次访谈中听到赵奕欢说：  </p>
+<blockquote>
+<p>&emsp;（当没有人认可你的时候，）你去证明就好了，但这个证明不是说去逞强，是你要（用行动）告诉别人。因为大家都很忙的，不可能说花时间去了解你，给别人看自己的状态，这样别人才会知道。  </p>
+</blockquote>
+<p>&emsp;&emsp;在越来越承认自己不过是普通人的同时，我又不甘于此，于是想做些什么来证明自己。写博客是一件与众不同的事情，或许我还可以借此假装深沉，或许包装包装，也能成为向别人炫耀的资本。我精心挑选博客风格，努力又勉强地写文章，期待着某一天能惊艳所有人。<br>&emsp;&emsp;这确实是我最初最真实的想法，然而几个月后我突然意识到，除了真正的朋友没人愿意读我写的东西。这时我回头看之前写的文字，实在多了些造作，少了些真诚。于是我沉下心审视自己，审视我的博客，我问自己，到底什么样的文字才是理想的，我写博客到底是为了什么？  </p>
+<h2 id="意义"><a href="#意义" class="headerlink" title="意义"></a>意义</h2><p>&emsp;&emsp;从现在开始，我才真正是为了自己而写作。把写作的过程作为与自己对话的过程，我会不加掩饰地写出自己的心里话。加之写作能帮助我梳理自己的思想、整理阅读所得、锻炼自己的文风。而朋友们的期待会是我不断写作的动力。趁大四有了更多与自己独处的时间，我想多多反思，多多成长。  </p>
+<p>&emsp;&emsp;<strong>写在最后，也写给自己：写博客其实没有原因，只是我想而已。但我希望文字能让我慢下来，看看生活的背面。</strong>  </p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+                    
+                  </div>
+                
+                
+              </div>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/04/02/%E6%9D%A5%E8%87%AA%E9%83%81%E8%80%81%E5%B8%88%EF%BC%8C%E4%B9%A6%E6%9C%AC%E4%B9%8B%E5%A4%96%E7%9A%84%E6%95%99%E8%AF%B2/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">来自郁老师，书本之外的教诲</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments">
+                
+                  
+                
+                
+  <div id="vcomments"></div>
+  <script type="text/javascript">
+    Fluid.utils.waitElementVisible('vcomments', function() {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', function () {
+        new Valine({
+          el: "#vcomments",
+          app_id: "VrvO76O9i3exDo73txVzCIxD-gzGzoHsz",
+          app_key: "GGEp5uRx2fyl2dTLNu9B3MOq",
+          placeholder: "写评论",
+          path: window.location.pathname,
+          avatar: "retro",
+          meta: ["nick","mail","link"],
+          pageSize: "10",
+          lang: "zh-CN",
+          highlight: false,
+          recordIP: false,
+          serverURLs: "",
+        });
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a target="_blank" href="https://valine.js.org" rel="nofollow noopener noopener">comments powered by Valine.</a>
+  </noscript>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      $('#local-search-input').on('click', function() {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      });
+      $('#modalSearch').on('shown.bs.modal', function() {
+        $('#local-search-input').focus();
+      });
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>
